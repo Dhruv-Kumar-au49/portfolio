@@ -1,0 +1,328 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+ color: aliceblue;
+ text-align: center;
+    
+}
+
+#homepage{
+position: relative;
+right: 25%;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+a:link {
+  color: aliceblue;
+ text-decoration: none;
+}
+a:visited{
+
+  color: aliceblue;
+  text-decoration: none;
+
+}
+h1{
+  width: 100%;
+  display: inline;
+position: relative;
+/* right: -22em; */
+top: 5em;
+cursor: pointer;
+
+}
+
+.skills{
+  width: 100%;
+  position: relative;
+  top: 12em;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+cursor: pointer;
+
+}
+.skills_container{
+margin: 40px;
+text-align: center;
+border-radius: 25px;
+box-shadow: 5px 5px 40px #d32a2a;
+
+}
+
+.skills_container:hover{
+  transition: 1s;
+  transition-delay: 0.2s;
+   transform: scale(1.1);
+   border: solid red;
+  
+
+}
+
+
+.link{
+    position: relative;
+    right: -13px;
+    height: 30px;
+    
+}
+
+.dp{
+    position: relative;
+    top: 250px;
+    right: 570px;
+    height: 268px;
+    width: 274px;
+    border-radius: 300px;
+    box-shadow: 5px 5px 20px white;
+}
+
+.dhruv{
+    color: red;
+    position: relative;
+    right: 9.5%;
+}
+
+
+
+.hi{
+font-size: 30px;
+position: relative;
+    right: 13.3%;
+}
+
+h1:before {
+  content: "";
+    position: relative;
+    top: 20px;
+    left: 32%;
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: red;
+  
+}
+h1:after {
+  content: "";
+  position: relative;
+  top: -21px;
+  right: -60%;
+  display: block;
+  width: 130px;
+  height: 5px;
+  background:red;
+  
+}
+
+h2{
+  display: inline;
+position: relative;
+/* right: -30em; */
+top: 15em;
+cursor: pointer;
+  }
+
+
+  h2:before {
+    content: "";
+      position: relative;
+      top: 17px;
+     left: 32%;
+      display: block;
+      width: 130px;
+      height: 5px;
+      background: red;
+    
+  }
+  h2:after {
+    content: "";
+    position: relative;
+    top: -15px;
+    right: -60%;
+    display: block;
+    width: 130px;
+    height: 5px;
+    background:red;
+    
+  }
+
+  h3{
+    transform: matrix3d(360);
+    display: inline;
+    position: relative;
+    /* right: -38em; */
+    top: 29em;
+    cursor: pointer;
+}
+
+  
+  
+    h3:before {
+      content: "";
+        position: relative;
+        top: 12px;
+       left: 32%;
+        display: block;
+        width: 130px;
+        height: 5px;
+        background: red;
+      
+    }
+    h3:after {
+      content: "";
+      position: relative;
+      top: -15px;
+      right: -60%;
+      display: block;
+      width: 130px;
+      height: 5px;
+      background:red;
+      
+    }
+
+    .link{
+      position: relative;
+      top: 37em;
+      /* right: 40em; */
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      cursor: pointer;
+  }
+      .link-continer{
+        width: 10em;
+        text-align: center;
+      }
+
+    
+
+
+  .project{
+    width: 100%;
+    position: relative;
+    top: 30em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  cursor: pointer;
+
+
+  }
+  .project-continer{
+    height: 70vh;
+    margin: 30px;
+    margin-bottom: 150px;
+    width: 45vw;
+    border: red solid;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 40px #d32a2a;
+  }
+
+  .project-continer:hover{
+    transition: 1s;
+    transition-delay: 0.2s;
+     transform: scale(103%);
+     border: solid red;
+    }
+
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #39547c; 
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+   
+  }
+
+.name{
+    font-size: 53px;
+    position: relative;
+    top: -1em;
+    right: -5em;
+    color: aliceblue;
+}
+   
+
+.dp:hover{
+    transition: 1s;
+    transition-delay: 0.3s;
+     transform: scale(1.1);
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    color: aliceblue;
+   }
+
+   #resume{
+    border-radius: 6px;
+    color: aliceblue;
+    border: 2px solid red;
+    }
+.nav_bar{
+    background-color: black;
+    position: fixed;
+padding-top: 10px;
+padding-bottom: 5px;
+z-index: 9999;
+    width: 100%;
+    box-shadow: 0px 3px 20px white;
+
+}
+   #resume:hover{
+background-color: red;
+color: rgb(20, 20, 1);
+
+
+   }
+   .container{
+    padding: 15px;
+    margin-right: 43px;
+    margin-left: 60px;
+    font-size: larger;
+    align-items: center;
+   cursor: pointer;
+  
+   }
+
+  .footer{
+    color: aliceblue;
+    position: relative;
+    /* right: -41em; */
+    top: 1em;
+  }
+
+  .container:hover{
+
+    transition: 1s;
+    transition-delay: 0.3s;
+     transform: scale(1.1);
+  }
+
